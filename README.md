@@ -1,18 +1,17 @@
-# BBVA (bbva)
+# BBVA
+
 BBVA is a multinational Spanish financial services group operating in over 30 countries. The BBVA API Market provides a comprehensive catalog of banking APIs covering accounts, payments, collections, financing, identity, and open data across Spain, Mexico, Latin America, and other global markets. BBVA is a recognized open banking leader offering PSD2-compliant APIs, treasury management solutions, and digital ecosystem integrations.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/apis.yml)
+**Developer Portal:** https://www.bbvaapimarket.com/en/
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Tags
 
-## Tags:
-
- - Banking, Financial Services, Open Banking, PSD2, Spain, Mexico
+Banking, Financial Services, Open Banking, PSD2, Spain, Mexico
 
 ## Timestamps
 
 - **Created:** 2025-02-08
-- **Modified:** 2026-04-19
+- **Modified:** 2026-04-21
 
 ## APIs
 

@@ -8,6 +8,7 @@ description: >-
   America, and other global markets. BBVA is a recognized open banking leader offering
   PSD2-compliant APIs, treasury management solutions, and digital ecosystem integrations.
 type: Index
+x-type: company
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Banking
@@ -18,7 +19,7 @@ tags:
   - Mexico
 access: 3rd-Party
 created: '2025-02-08'
-modified: '2026-04-19'
+modified: '2026-04-21'
 position: Consumer
 specificationVersion: '0.19'
 apis:
@@ -107,6 +108,14 @@ common:
     url: https://www.bbva.com/en/privacy-policy/
   - type: Blog
     url: https://www.bbvaapimarket.com/en/api-world/
+  - type: SpectralRules
+    url: rules/bbva-spectral-rules.yml
+  - type: Vocabulary
+    url: vocabulary/bbva-vocabulary.yaml
+  - type: NaftikoCapability
+    url: capabilities/open-banking.yaml
+  - type: JSON-LD
+    url: json-ld/bbva-context.jsonld
   - type: Features
     data:
       - name: PSD2 Compliance

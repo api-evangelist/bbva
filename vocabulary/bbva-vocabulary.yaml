@@ -1,0 +1,50 @@
+vocabulary:
+  name: BBVA API Market Vocabulary
+  description: >-
+    Key terms and concepts used in BBVA's open banking API platform,
+    spanning PSD2-compliant European services and global banking APIs.
+  terms:
+    - term: AIS
+      definition: >-
+        Account Information Service — a PSD2 regulated service allowing authorized
+        third parties to access customer payment account information (balances, transactions).
+    - term: PIS
+      definition: >-
+        Payment Initiation Service — a PSD2 regulated service allowing authorized
+        third parties to initiate payments from customer bank accounts.
+    - term: PSD2
+      definition: >-
+        Payment Services Directive 2 — EU regulation requiring banks to provide open
+        access to customer account data to licensed third-party providers.
+    - term: SEPA
+      definition: >-
+        Single Euro Payments Area — the European integration initiative enabling simple,
+        standardized euro-denominated bank transfers across 36 European countries.
+    - term: SPEI
+      definition: >-
+        Sistema de Pagos Electronicos Interbancarios — Mexico's interbank payment
+        system for real-time electronic fund transfers between Mexican banks.
+    - term: TPP
+      definition: >-
+        Third-Party Provider — a company authorized under PSD2 to access bank account
+        data (AISP) or initiate payments (PISP) with customer consent.
+    - term: ASPSP
+      definition: >-
+        Account Servicing Payment Service Provider — the bank or PSP that holds the
+        customer's payment account and provides API access to TPPs under PSD2.
+    - term: SCA
+      definition: >-
+        Strong Customer Authentication — PSD2-mandated multi-factor authentication
+        requirement for accessing accounts and initiating payments.
+    - term: Redsys
+      definition: >-
+        Spanish payment processor and PSD2 hub through which BBVA Spain PSD2 APIs
+        are registered and certified for TPP access.
+    - term: Treasury Management
+      definition: >-
+        Corporate treasury services for managing cash positions, payments, and collections
+        across multiple currencies and countries.
+    - term: BBVA API Market
+      definition: >-
+        BBVA's developer portal providing access to open banking APIs across all
+        BBVA geographies, including sandbox and production environments.

@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "fibo": "https://spec.edmcouncil.org/fibo/ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "BankAccount": {
+      "@id": "fibo:FBC/FinancialInstruments/FinancialInstruments/BankAccount",
+      "@type": "@id"
+    },
+    "Payment": {
+      "@id": "schema:PayAction",
+      "@type": "@id"
+    },
+    "accountId": {
+      "@id": "fibo:accountId",
+      "@type": "xsd:string"
+    },
+    "iban": {
+      "@id": "schema:accountId",
+      "@type": "xsd:string"
+    },
+    "currency": {
+      "@id": "schema:currency",
+      "@type": "xsd:string"
+    },
+    "balance": {
+      "@id": "schema:amount",
+      "@type": "xsd:decimal"
+    },
+    "amount": {
+      "@id": "schema:price",
+      "@type": "xsd:decimal"
+    },
+    "paymentReference": {
+      "@id": "schema:confirmationNumber",
+      "@type": "xsd:string"
+    },
+    "country": {
+      "@id": "schema:addressCountry",
+      "@type": "xsd:string"
+    },
+    "transactionDate": {
+      "@id": "schema:startDate",
+      "@type": "xsd:dateTime"
+    }
+  }
+}

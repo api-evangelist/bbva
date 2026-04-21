@@ -1,0 +1,43 @@
+capability:
+  name: BBVA Open Banking
+  description: >-
+    BBVA's open banking capabilities provide PSD2-compliant account information and
+    payment initiation services for Spain and EU markets, alongside multi-country
+    treasury management, business payments, and collections APIs across 15+ countries.
+  categories:
+    - name: Account Information (AIS)
+      description: PSD2 Account Information Services for accessing customer account data with consent.
+      operations:
+        - name: List Accounts
+          description: Retrieve list of customer payment accounts.
+        - name: Get Account Details
+          description: Retrieve details for a specific payment account.
+        - name: Get Account Balances
+          description: Retrieve current and available balances for an account.
+        - name: Get Account Transactions
+          description: Retrieve transaction history for an account within a date range.
+    - name: Payment Initiation (PIS)
+      description: PSD2 Payment Initiation Services for initiating payments with customer consent.
+      operations:
+        - name: Initiate SEPA Credit Transfer
+          description: Initiate a SEPA credit transfer payment.
+        - name: Initiate Instant Payment
+          description: Initiate a SEPA Instant Credit Transfer (SCT Inst).
+        - name: Get Payment Status
+          description: Check the status of a previously initiated payment.
+        - name: Cancel Payment
+          description: Cancel a payment that has not yet been executed.
+    - name: Business Payments
+      description: Treasury and corporate payment services for business customers.
+      operations:
+        - name: Bulk Payment Initiation
+          description: Submit bulk payment files for payroll or supplier disbursements.
+        - name: SPEI Transfer (Mexico)
+          description: Initiate interbank transfers via Mexico's SPEI system.
+    - name: Open Data
+      description: Publicly accessible data APIs without authentication.
+      operations:
+        - name: Get Branch Locations
+          description: Retrieve BBVA branch locations with address, hours, and services.
+        - name: Get ATM Locations
+          description: Retrieve BBVA ATM locations with coordinates and availability.

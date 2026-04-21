@@ -1,0 +1,30 @@
+{
+  "@context": "../json-ld/bbva-context.jsonld",
+  "@type": "BankAccount",
+  "accountId": "ES9121000418450200051332",
+  "iban": "ES9121000418450200051332",
+  "currency": "EUR",
+  "country": "ES",
+  "balances": [
+    {
+      "balanceType": "closingBooked",
+      "balanceAmount": {
+        "currency": "EUR",
+        "amount": "15420.50"
+      },
+      "referenceDate": "2026-04-20"
+    },
+    {
+      "balanceType": "expected",
+      "balanceAmount": {
+        "currency": "EUR",
+        "amount": "14920.50"
+      },
+      "referenceDate": "2026-04-21"
+    }
+  ],
+  "links": {
+    "account": "/v1/accounts/ES9121000418450200051332",
+    "transactions": "/v1/accounts/ES9121000418450200051332/transactions"
+  }
+}
