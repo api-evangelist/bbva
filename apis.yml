@@ -92,6 +92,10 @@ apis:
         url: https://www.bbvaapimarket.com/en/banking-apis/
 
 common:
+  - type: GitHubOrganization
+    url: https://github.com/BBVA
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/bbva
   - type: Portal
     url: https://www.bbvaapimarket.com/en/
   - type: Website
