@@ -116,7 +116,7 @@ common:
     url: rules/bbva-spectral-rules.yml
   - type: Vocabulary
     url: vocabulary/bbva-vocabulary.yaml
-  - type: NaftikoCapability
+  - type: X-NaftikoCapability
     url: capabilities/open-banking.yaml
   - type: JSONLD
     url: json-ld/bbva-context.jsonld
