@@ -92,6 +92,8 @@ apis:
         url: https://www.bbvaapimarket.com/en/banking-apis/
 
 common:
+  - type: DomainSecurity
+    url: security/bbva-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/BBVA
   - type: LinkedIn
