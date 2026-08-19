@@ -33,7 +33,7 @@ access: 3rd-Party
 created: '2025-02-08'
 modified: '2026-07-25'
 position: Consumer
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: bbva:accounts-psd2
     name: BBVA Accounts PSD2 API
