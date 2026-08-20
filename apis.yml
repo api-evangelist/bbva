@@ -24,6 +24,13 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bbva.png
 tags:
   - Banking
+  - Financial-Services
+  - Open Banking
+  - PSD2
+  - Spain
+  - Mexico
+tags_raw:
+  - Banking
   - Financial Services
   - Open Banking
   - PSD2
@@ -44,6 +51,12 @@ apis:
       details. Requires a PSD2 AIS license and registration through the Redsys platform.
     humanURL: https://www.bbvaapimarket.com/en/banking-apis/es-account-information-psd2/
     tags:
+      - Banking
+      - Account
+      - PSD2
+      - Spain
+      - Open Banking
+    tags_raw:
       - Banking
       - Accounts
       - PSD2
