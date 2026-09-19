@@ -122,6 +122,10 @@ apis:
     tags:
       - Banking
       - Open Data
+      - Location
+    tags_raw:
+      - Banking
+      - Open Data
       - Locations
     properties:
       - type: Documentation
