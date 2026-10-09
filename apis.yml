@@ -203,6 +203,8 @@ common:
         description: Mexican interbank payment system integration for Mexico business payment APIs.
       - name: SAP
         description: ERP integration for treasury management customers connecting SAP financial systems with BBVA APIs.
+  - type: SpectralRules
+    url: https://github.com/BBVA/apicheck/blob/8f455e8d3863c56ed75fc5d68df0a52830c7749b/tools-edge/oas-checker/spectral.yml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
