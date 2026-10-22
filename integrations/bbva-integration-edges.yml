@@ -15,6 +15,8 @@ checked:
 - https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
 - https://www.ojk.go.id/id/kanal/iknb/data-dan-statistik/direktori/fintech/Default.aspx
 - https://zapier.com/apps/bbva/integrations
+- https://www.amf-france.org/fr/espace-epargnants/proteger-son-epargne/listes-blanches
+- https://www.regafi.fr/
 summary: null
 marketplace_apps: []
 edges:
@@ -77,4 +79,39 @@ edges:
     detected: '2026-10-18'
   detected_by: sweep-gulf-asean-open-finance.py
   first_seen: '2026-10-18'
+- partner_name: REGAFI (ACPR / Banque de France register of authorised financial firms)
+  partner: null
+  partner_match: register
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.regafi.fr/
+  category: French financial supervisory authorisation (ACPR, REGAFI)
+  contract_reference:
+    register: REGAFI (ACPR / Banque de France register of authorised financial firms)
+    spec_file: null
+    standard: null
+    role: passported-into-france
+    registrations:
+    - registered_name: Banco Bilbao Vizcaya Argentaria (BBVA)
+      role: passported-into-france
+      licences:
+      - Établissement de Crédit
+      register_country: ES
+      matched_domain: bbva.com
+      matched_by: domain
+      register_id: '21460'
+      lei: K8MS7FD7N5Z2WQ51AZ71
+      passports:
+      - Libre prestation de services
+      home_authority: Banco de Espana
+      identity: wikidata Q806189 (LEI P1278) P856 https://www.bbva.com/
+    signal_note: 'participation only: a supervisory authorisation / passport notification; no API conformance is
+      published by this register'
+    detected_by: sweep-france-regafi-acpr.py
+    detected: '2026-10-22'
+    identity_source: wikidata P856 (LEI P1278 or name; labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-france-regafi-acpr.py
+  first_seen: '2026-10-22'
 templates: []
