@@ -66,110 +66,133 @@
 
 BBVA is a multinational Spanish financial services group operating in over 30 countries. The BBVA API Market provides a comprehensive catalog of banking APIs covering accounts, payments, collections, financing, identity, and open data across Spain, Mexico, Latin America, and other global markets. BBVA is a recognized open banking leader offering PSD2-compliant APIs, treasury management solutions, and digital ecosystem integrations.
 
-**Developer Portal:** https://www.bbvaapimarket.com/en/
+**Areas:** Banking · Financial Services · Open Banking · PSD2 · Spain · Mexico
 
-## Tags
+## BBVA on APIs.io
 
-Banking, Financial Services, Open Banking, PSD2, Spain, Mexico
+Everything profiled for BBVA is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bbva/](https://apis.io/providers/bbva/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (4)
 
-- **Created:** 2025-02-08
-- **Modified:** 2026-04-21
+- [BBVA Accounts PSD2 API](https://apis.io/apis/bbva/accounts-psd2/) — PSD2-compliant account information service (AIS) API for Spain. Allows authorized third parties to access customer payment account information including…
+- [BBVA Payments PSD2 API](https://apis.io/apis/bbva/payments-psd2/) — PSD2-compliant payment initiation service (PIS) API for Spain. Allows authorized third parties to initiate payments on behalf of customers including SEPA…
+- [BBVA Mexico Business Payments API](https://apis.io/apis/bbva/mexico-business-payments/) — Business payment processing API for Mexico enabling bulk payments, payroll disbursements, and supplier payments through BBVA Mexico's banking…
+- [BBVA Locations API](https://apis.io/apis/bbva/locations/) — Open data API providing access to BBVA branch and ATM location data. Available for Spain and Mexico, this API returns geolocation data, operating hours,…
 
-## APIs
+### Published properties
 
-### BBVA Accounts PSD2 API
-PSD2-compliant account information service (AIS) API for Spain. Allows authorized third parties to access customer payment account information including account lists, balances, transaction history, and account holder details.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://www.bbvaapimarket.com/en/banking-apis/es-account-information-psd2/](https://www.bbvaapimarket.com/en/banking-apis/es-account-information-psd2/)
+#### JSON-LD (1)
 
-#### Tags:
+Linked-data contexts for the provider's vocabulary.
 
- - Banking, Accounts, PSD2, Spain, Open Banking
+- [Bbva Context](https://apis.io/jsonld/bbva/bbva-context/)
 
-#### Properties
+#### Vocabulary (1)
 
-- [Documentation](https://www.bbvaapimarket.com/en/banking-apis/es-account-information-psd2/)
+The provider's domain terms, defined.
 
-### BBVA Payments PSD2 API
-PSD2-compliant payment initiation service (PIS) API for Spain. Allows authorized third parties to initiate payments on behalf of customers including SEPA transfers, immediate payments, and international transfers.
+- [BBVA API Market Vocabulary](https://apis.io/vocabularies/bbva/bbva-vocabulary/)
 
-**Human URL:** [https://www.bbvaapimarket.com/en/banking-apis/es-payments-psd2/](https://www.bbvaapimarket.com/en/banking-apis/es-payments-psd2/)
+#### Examples (1)
 
-#### Tags:
+Example requests and responses.
 
- - Banking, Payments, PSD2, Spain, Open Banking
+- [Account Balance Example](https://apis.io/examples/bbva/account-balance-example/)
 
-#### Properties
+#### Governance rules (2)
 
-- [Documentation](https://www.bbvaapimarket.com/en/banking-apis/es-payments-psd2/)
+Spectral rulesets for the provider's contracts.
 
-### BBVA Mexico Business Payments API
-Business payment processing API for Mexico enabling bulk payments, payroll disbursements, and supplier payments through BBVA Mexico's banking infrastructure. Supports SPEI transfers and other Mexican payment systems.
+- [BBVA — apicheck rules](https://apis.io/rules/bbva/bbva-apicheck-spectral-rules/)
+- [BBVA API Rules](https://apis.io/rules/bbva/bbva-spectral-rules/)
 
-**Human URL:** [https://www.bbvaapimarket.com/en/banking-apis/](https://www.bbvaapimarket.com/en/banking-apis/)
+#### Security (1)
 
-#### Tags:
+Authentication, trust centre, and vulnerability disclosure.
 
- - Banking, Payments, Mexico, Business Banking
+- [Bbva Domain Security](https://apis.io/security/bbva/bbva-domain-security/)
 
-#### Properties
+#### Plans and pricing (1)
 
-- [Documentation](https://www.bbvaapimarket.com/en/banking-apis/)
+Published plans, tiers and prices.
 
+- [Bbva Plans Pricing](https://apis.io/plans/bbva/bbva-plans-pricing/)
 
-#### Tags:
+#### Rate limits (1)
 
- - Banking, Open Data, Locations
+Published request limits.
 
-#### Properties
+- [Bbva Rate Limits](https://apis.io/rate-limits/bbva/bbva-rate-limits/)
 
-- [Documentation](https://www.bbvaapimarket.com/en/banking-apis/)
+#### FinOps (1)
 
-## Common Properties
+What the API costs to run, by operation.
 
-- [Portal](https://www.bbvaapimarket.com/en/)
+- [Bbva Finops](https://apis.io/finops/bbva/bbva-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.bbva.com/)
 - [Documentation](https://www.bbvaapimarket.com/en/api-developers/)
-- [GettingStarted](https://www.bbvaapimarket.com/en/api-developers/)
-- [Sandbox](https://www.bbvaapimarket.com/en/api-developers/)
-- [TermsOfService](https://www.bbva.com/en/legal-notice/)
-- [PrivacyPolicy](https://www.bbva.com/en/privacy-policy/)
+- [Getting started](https://www.bbvaapimarket.com/en/api-developers/)
 - [Blog](https://www.bbvaapimarket.com/en/api-world/)
+- [Terms of service](https://www.bbva.com/en/legal-notice/)
+- [Privacy policy](https://www.bbva.com/en/privacy-policy/)
+- [GitHub](https://github.com/BBVA)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| PSD2 Compliance | All European banking APIs are fully compliant with the PSD2 Payment Services Directive, including AIS and PIS services. |
-| Multi-Country Coverage | APIs available across 15+ countries including Spain, Mexico, Peru, Colombia, Argentina, Belgium, France, UK, Turkey, and USA. |
-| Treasury Management | Multi-country treasury APIs for global enterprises to manage payments, collections, and cash positions. |
-| Digital Ecosystems | APIs enabling businesses to embed BBVA banking services into their own digital platforms and applications. |
-| Sandbox Environment | Developer sandbox environment for testing and validating API integrations before production deployment. |
-| Open Data APIs | Publicly accessible location and branch data APIs available without authentication for branch/ATM locators. |
+**Kin Score 29.0** — thin · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 10.7 |
+| Contract governance | 68.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Account Aggregation | Build personal finance and wealth management apps that aggregate BBVA account data across accounts. |
-| Payment Initiation | Enable one-click checkout and payment initiation from customer bank accounts in Spain and other PSD2 markets. |
-| Treasury Automation | Automate corporate treasury operations including bulk payments, collections, and cash management across BBVA markets. |
-| Financial Data Analytics | Access transaction and account data to power credit scoring, risk analysis, and financial advisory services. |
-| Branch Locator | Integrate BBVA branch and ATM location data into customer-facing applications using the open locations API. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Redsys | Spanish payment gateway and PSD2 infrastructure through which BBVA PSD2 APIs are registered and deployed. |
-| SEPA | Single Euro Payments Area integration for European payment transfers in Spain and EU markets. |
-| SPEI | Mexican interbank payment system integration for Mexico business payment APIs. |
-| SAP | ERP integration for treasury management customers connecting SAP financial systems with BBVA APIs. |
+**Regulatory alignment 11.8** — Banking & Open Finance
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bbva/](https://apis.io/providers/bbva/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BBVA: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bbva/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
